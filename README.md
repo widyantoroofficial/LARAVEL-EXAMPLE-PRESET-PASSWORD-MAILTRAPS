@@ -4,11 +4,11 @@ Example sederhana melakukan reset email yang di kirimkan ke email real atau emai
 
 ## Fitur
 
--   [x] Reset Password
--   [x] Email Verification
--   [x] Login
--   [x] Register
--   [x] Forgot Password
+- [x] Reset Password
+- [x] Email Verification
+- [x] Login
+- [x] Register
+- [x] Forgot Password
 
 ## Teknologi
 
@@ -17,6 +17,42 @@ Example sederhana melakukan reset email yang di kirimkan ke email real atau emai
 **Server:** PHP, Laravel
 
 **DataBase:** MySql
+
+## Instalasi
+
+berikut ini merupakan panduan instalasi sistem inventaris
+
+Clone Repository
+
+```bash
+git clone git@github.com:anous/LARAVEL-EXAMPLE-PRESET-PASSWORD-MAILTRAPS.git
+```
+
+Composer Update
+
+```bash
+cp composer update
+```
+
+Create .env file
+
+```bash
+cp .env.example .env
+```
+
+Lakukan generate key
+
+```bash
+php artisan key:generate
+```
+
+Nyalakan Web Server
+
+```bash
+php artisan serve --port=8001
+```
+
+Jika Semua sudah,maka dapat di jalankan di browser.
 
 ## Screenshots
 
